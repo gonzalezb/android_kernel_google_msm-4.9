@@ -2,7 +2,9 @@ VERSION = 4
 PATCHLEVEL = 9
 SUBLEVEL = 185
 EXTRAVERSION =
-NAME = Roaring Lionus
+# NAME = Roaring Lionus
+CONFIG_LOCALVERSION="-IntodarkessKernel"
+export LOCALVERSION="-0.1beta"
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
